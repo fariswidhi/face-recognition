@@ -1,0 +1,12 @@
+# Folder dan file yang tidak perlu diunggah ke GitHub
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+venv/
+env/
+known_faces/
+static/sketches/
+temp_sketch.jpg

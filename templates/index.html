@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition with Sketch</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Face Recognition with Sketch</h1>
+
+    <div>
+        <video id="webcam" autoplay playsinline></video>
+        <canvas id="canvas" style="display: none;"></canvas>
+    </div>
+
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <button id="registerButton">Register Face</button>
+        <button id="recognizeButton">Recognize Face</button>
+    </div>
+
+    <div id="result"></div>
+
+    <!-- Area untuk menampilkan sketsa -->
+    <div id="sketch-container" style="display: none;">
+        <h2>Sketch:</h2>
+        <img id="sketch-image" src="" alt="Sketch" style="max-width: 300px;">
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
