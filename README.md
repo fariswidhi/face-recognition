@@ -24,3 +24,4 @@ Clone repositori ini ke komputer Anda menggunakan perintah berikut:
 git clone https://github.com/fariswidhi/face-recognition.git
 cd face-recognition
 pip install -r requirements.txt
+python app.py
