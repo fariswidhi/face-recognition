@@ -16,7 +16,7 @@ Aplikasi face recognition sederhana dengan fitur:
 
 Ikuti langkah-langkah berikut untuk menginstal dan menjalankan aplikasi:
 
-### 1. Clone Repositori
+
 
 Clone repositori ini ke komputer Anda menggunakan perintah berikut:
 
