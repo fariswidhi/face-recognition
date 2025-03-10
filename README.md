@@ -2,7 +2,6 @@
 
 Aplikasi face recognition sederhana dengan fitur:
 - Registrasi wajah.
-- Deteksi wajah hidup (liveness detection).
 - Pengenalan wajah.
 - Penyimpanan sketsa gambar dengan ukuran maksimal 10 KB.
 
@@ -24,4 +23,4 @@ Clone repositori ini ke komputer Anda menggunakan perintah berikut:
 git clone https://github.com/fariswidhi/face-recognition.git
 cd face-recognition
 pip install -r requirements.txt
-python app.py
+python app.py# face_recognition
